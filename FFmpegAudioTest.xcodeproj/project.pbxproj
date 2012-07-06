@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7190CD158DE146008A5389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7190CC158DE146008A5389 /* UIKit.framework */; };
+		FC7190CF158DE146008A5389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7190CE158DE146008A5389 /* Foundation.framework */; };
+		FC7190D1158DE146008A5389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7190D0158DE146008A5389 /* CoreGraphics.framework */; };
+		FC7190D7158DE146008A5389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC7190D5158DE146008A5389 /* InfoPlist.strings */; };
+		FC7190D9158DE146008A5389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7190D8158DE146008A5389 /* main.m */; };
+		FC7190DD158DE146008A5389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7190DC158DE146008A5389 /* AppDelegate.m */; };
+		FC7190E0158DE146008A5389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7190DF158DE146008A5389 /* ViewController.m */; };
+		FC7190E3158DE146008A5389 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7190E1158DE146008A5389 /* ViewController_iPhone.xib */; };
+		FC7190E6158DE146008A5389 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7190E4158DE146008A5389 /* ViewController_iPad.xib */; };
+		FC7190F5158DE7AB008A5389 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7190F3158DE7AB008A5389 /* AudioToolbox.framework */; };
+		FC7190F6158DE7AB008A5389 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7190F4158DE7AB008A5389 /* AVFoundation.framework */; };
+		FC7190F9158DED0D008A5389 /* sample.flv in Resources */ = {isa = PBXBuildFile; fileRef = FC7190F8158DED0D008A5389 /* sample.flv */; };
+		FC7190FC158DF056008A5389 /* FFmpegDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7190FB158DF056008A5389 /* FFmpegDecoder.m */; };
+		FCC0361C1593973C00DBE3B5 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC036171593973C00DBE3B5 /* libavcodec.a */; };
+		FCC0361D1593973C00DBE3B5 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC036181593973C00DBE3B5 /* libavdevice.a */; };
+		FCC0361E1593973C00DBE3B5 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC036191593973C00DBE3B5 /* libavformat.a */; };
+		FCC0361F1593973C00DBE3B5 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC0361A1593973C00DBE3B5 /* libavutil.a */; };
+		FCC036201593973C00DBE3B5 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC0361B1593973C00DBE3B5 /* libswscale.a */; };
+		FCC036231593984C00DBE3B5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC036221593984C00DBE3B5 /* libz.dylib */; };
+		FCC036251593988000DBE3B5 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC036241593988000DBE3B5 /* libbz2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC7190C8158DE146008A5389 /* FFmpegAudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpegAudioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7190CC158DE146008A5389 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC7190CE158DE146008A5389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC7190D0158DE146008A5389 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC7190D4158DE146008A5389 /* FFmpegAudioTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFmpegAudioTest-Info.plist"; sourceTree = "<group>"; };
+		FC7190D6158DE146008A5389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC7190D8158DE146008A5389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC7190DA158DE146008A5389 /* FFmpegAudioTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFmpegAudioTest-Prefix.pch"; sourceTree = "<group>"; };
+		FC7190DB158DE146008A5389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC7190DC158DE146008A5389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC7190DE158DE146008A5389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC7190DF158DE146008A5389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC7190E2158DE146008A5389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FC7190E5158DE146008A5389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FC7190F3158DE7AB008A5389 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC7190F4158DE7AB008A5389 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC7190F8158DED0D008A5389 /* sample.flv */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.flv; sourceTree = "<group>"; };
+		FC7190FA158DF056008A5389 /* FFmpegDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpegDecoder.h; sourceTree = "<group>"; };
+		FC7190FB158DF056008A5389 /* FFmpegDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFmpegDecoder.m; sourceTree = "<group>"; };
+		FCC036171593973C00DBE3B5 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		FCC036181593973C00DBE3B5 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
+		FCC036191593973C00DBE3B5 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		FCC0361A1593973C00DBE3B5 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		FCC0361B1593973C00DBE3B5 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		FCC036221593984C00DBE3B5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FCC036241593988000DBE3B5 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7190C5158DE146008A5389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC036251593988000DBE3B5 /* libbz2.dylib in Frameworks */,
+				FCC036231593984C00DBE3B5 /* libz.dylib in Frameworks */,
+				FC7190F5158DE7AB008A5389 /* AudioToolbox.framework in Frameworks */,
+				FC7190F6158DE7AB008A5389 /* AVFoundation.framework in Frameworks */,
+				FC7190CD158DE146008A5389 /* UIKit.framework in Frameworks */,
+				FC7190CF158DE146008A5389 /* Foundation.framework in Frameworks */,
+				FC7190D1158DE146008A5389 /* CoreGraphics.framework in Frameworks */,
+				FCC0361C1593973C00DBE3B5 /* libavcodec.a in Frameworks */,
+				FCC0361D1593973C00DBE3B5 /* libavdevice.a in Frameworks */,
+				FCC0361E1593973C00DBE3B5 /* libavformat.a in Frameworks */,
+				FCC0361F1593973C00DBE3B5 /* libavutil.a in Frameworks */,
+				FCC036201593973C00DBE3B5 /* libswscale.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7190BD158DE146008A5389 = {
+			isa = PBXGroup;
+			children = (
+				FC7190D2158DE146008A5389 /* FFmpegAudioTest */,
+				FC7190CB158DE146008A5389 /* Frameworks */,
+				FC7190C9158DE146008A5389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7190C9158DE146008A5389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7190C8158DE146008A5389 /* FFmpegAudioTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7190CB158DE146008A5389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC036241593988000DBE3B5 /* libbz2.dylib */,
+				FCC036221593984C00DBE3B5 /* libz.dylib */,
+				FC7190F3158DE7AB008A5389 /* AudioToolbox.framework */,
+				FC7190F4158DE7AB008A5389 /* AVFoundation.framework */,
+				FC7190CC158DE146008A5389 /* UIKit.framework */,
+				FC7190CE158DE146008A5389 /* Foundation.framework */,
+				FC7190D0158DE146008A5389 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7190D2158DE146008A5389 /* FFmpegAudioTest */ = {
+			isa = PBXGroup;
+			children = (
+				FCC036161593973C00DBE3B5 /* lib */,
+				FC7190F7158DED0D008A5389 /* sample */,
+				FC7190DB158DE146008A5389 /* AppDelegate.h */,
+				FC7190DC158DE146008A5389 /* AppDelegate.m */,
+				FC7190DE158DE146008A5389 /* ViewController.h */,
+				FC7190DF158DE146008A5389 /* ViewController.m */,
+				FC7190E1158DE146008A5389 /* ViewController_iPhone.xib */,
+				FC7190E4158DE146008A5389 /* ViewController_iPad.xib */,
+				FC7190FA158DF056008A5389 /* FFmpegDecoder.h */,
+				FC7190FB158DF056008A5389 /* FFmpegDecoder.m */,
+				FC7190D3158DE146008A5389 /* Supporting Files */,
+			);
+			path = FFmpegAudioTest;
+			sourceTree = "<group>";
+		};
+		FC7190D3158DE146008A5389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC7190D4158DE146008A5389 /* FFmpegAudioTest-Info.plist */,
+				FC7190D5158DE146008A5389 /* InfoPlist.strings */,
+				FC7190D8158DE146008A5389 /* main.m */,
+				FC7190DA158DE146008A5389 /* FFmpegAudioTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC7190F7158DED0D008A5389 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				FC7190F8158DED0D008A5389 /* sample.flv */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+		FCC036161593973C00DBE3B5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FCC036171593973C00DBE3B5 /* libavcodec.a */,
+				FCC036181593973C00DBE3B5 /* libavdevice.a */,
+				FCC036191593973C00DBE3B5 /* libavformat.a */,
+				FCC0361A1593973C00DBE3B5 /* libavutil.a */,
+				FCC0361B1593973C00DBE3B5 /* libswscale.a */,
+			);
+			name = lib;
+			path = FFmpeg/lib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7190C7158DE146008A5389 /* FFmpegAudioTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7190E9158DE146008A5389 /* Build configuration list for PBXNativeTarget "FFmpegAudioTest" */;
+			buildPhases = (
+				FC7190C4158DE146008A5389 /* Sources */,
+				FC7190C5158DE146008A5389 /* Frameworks */,
+				FC7190C6158DE146008A5389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFmpegAudioTest;
+			productName = FFmpegAudioTest;
+			productReference = FC7190C8158DE146008A5389 /* FFmpegAudioTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7190BF158DE146008A5389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FC7190C2158DE146008A5389 /* Build configuration list for PBXProject "FFmpegAudioTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC7190BD158DE146008A5389;
+			productRefGroup = FC7190C9158DE146008A5389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7190C7158DE146008A5389 /* FFmpegAudioTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7190C6158DE146008A5389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7190D7158DE146008A5389 /* InfoPlist.strings in Resources */,
+				FC7190E3158DE146008A5389 /* ViewController_iPhone.xib in Resources */,
+				FC7190E6158DE146008A5389 /* ViewController_iPad.xib in Resources */,
+				FC7190F9158DED0D008A5389 /* sample.flv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7190C4158DE146008A5389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7190D9158DE146008A5389 /* main.m in Sources */,
+				FC7190DD158DE146008A5389 /* AppDelegate.m in Sources */,
+				FC7190E0158DE146008A5389 /* ViewController.m in Sources */,
+				FC7190FC158DF056008A5389 /* FFmpegDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC7190D5158DE146008A5389 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7190D6158DE146008A5389 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC7190E1158DE146008A5389 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7190E2158DE146008A5389 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FC7190E4158DE146008A5389 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7190E5158DE146008A5389 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7190E7158DE146008A5389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC7190E8158DE146008A5389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7190EA158DE146008A5389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFmpegAudioTest/FFmpegAudioTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FFmpeg\"",
+				);
+				INFOPLIST_FILE = "FFmpegAudioTest/FFmpegAudioTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FFmpeg/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/FFmpeg\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC7190EB158DE146008A5389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFmpegAudioTest/FFmpegAudioTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FFmpeg\"",
+				);
+				INFOPLIST_FILE = "FFmpegAudioTest/FFmpegAudioTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FFmpeg/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/FFmpeg\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7190C2158DE146008A5389 /* Build configuration list for PBXProject "FFmpegAudioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7190E7158DE146008A5389 /* Debug */,
+				FC7190E8158DE146008A5389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7190E9158DE146008A5389 /* Build configuration list for PBXNativeTarget "FFmpegAudioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7190EA158DE146008A5389 /* Debug */,
+				FC7190EB158DE146008A5389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7190BF158DE146008A5389 /* Project object */;
+}
