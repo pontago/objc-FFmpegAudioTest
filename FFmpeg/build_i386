@@ -1,0 +1,28 @@
+#!/bin/tcsh -f
+
+if (! -d i386) mkdir i386
+if (! -d lib) mkdir lib
+
+rm i386/*
+
+make clean
+
+./configure --enable-cross-compile --disable-doc --enable-ffmpeg --disable-ffplay --disable-ffserver --arch=i386 --target-os=darwin --cc=/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc --as='gas-preprocessor.pl /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc' --sysroot=/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk --extra-cflags='-arch i386 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include' --extra-ldflags='-arch i386 -L/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/lib/system' --prefix=/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr --enable-shared --enable-pic
+
+
+make
+
+mv libavcodec/libavcodec.a i386/
+mv libavcodec/*.dylib i386/
+mv libavdevice/libavdevice.a i386/
+mv libavdevice/*.dylib i386/
+mv libavformat/libavformat.a i386/
+mv libavformat/*.dylib i386/
+mv libavutil/libavutil.a i386/
+mv libavutil/*.dylib i386/
+mv libswscale/libswscale.a i386/
+mv libswscale/*.dylib i386/
+
+rm lib/*.a
+
+cp i386/*.a lib/
