@@ -8,3 +8,8 @@ xcuserdata/
 *.pbxuser
 *.perspective
 *.perspectivev3
+
+FFmpeg/i386/*
+FFmpeg/armv6/*
+FFmpeg/armv7/*
+FFmpeg/lib/*
